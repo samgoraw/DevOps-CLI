@@ -1,4 +1,5 @@
 from todo import greet
 
 def test_greet():
-    assert greet("Sam") == "Hello, Sam!"
+    # Intentional failure
+    assert greet("Sam") == "Hi, Sam"   # but greet() returns "Hello, Sam"
