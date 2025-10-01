@@ -21,3 +21,6 @@ def test_remove_task():
     result = todo.remove_task(1)
     assert result == "Task 'Temp Task' removed!"
     assert todo.tasks == []
+
+def test_greet():
+    assert todo.greet() == "Welcome to the To-Do CLI!"

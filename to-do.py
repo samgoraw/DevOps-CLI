@@ -18,6 +18,9 @@ def remove_task(index):
     except IndexError:
         return "Invalid task number."
 
+def greet():
+    return "Welcome to the To-Do CLI!"
+
 if __name__ == "__main__":
     while True:
         print("\n--- To-Do App ---")
